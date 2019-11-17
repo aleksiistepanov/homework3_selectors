@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    min-height: 100%;
+    font-size: 14px;
+}
+
+a, button {
+    transition: all .4s ease-in;
+}
+
+
+.all-block {
+    margin: 40px auto;
+    max-width: 1200px;
+    display: flex;
+    align-content: center;
+}
+
+.block {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    line-height: 1.7rem;
+}
+
+p {
+    line-height: 1.4rem;
+}
+
+a {
+    display: inline-block;
+}
+
+img {
+    width: 70px;
+    height: 65px;
+}
+a:hover img {
+    opacity: 0;
+}
+
+a.one:hover {
+    background: url(../images/image11.jpg);
+}
+
+a.two:hover {
+    background: url(../images/image22.JPG);
+}
+
+a.three:hover {
+    background: url(../images/image33.JPG);
+}
